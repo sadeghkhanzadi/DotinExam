@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "697ade35-7d3f-4062-9cc6-8eb1de3d90fe",
+		"name": "DotinExam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DotinExam",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/sadegh/Downloads/trx.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8888/file/reader",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"file",
+						"reader"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
